@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aulas.css">
+    <title>Aulas</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="top">
+                <div class="info">
+                    <h1>HTML & CSS</h1>
+                    <p>Entenda como funciona uma linguagem de marcação.</p>
+                </div>
+                <div class="video">
+                    <div class="column">
+                        <div class="play" onclick="openModal('hAzeEs8AnU0')">
+
+                        </div>
+                        <span>Vídeo 1</span>
+                    </div>
+                    <div class="column">
+                        <div class="play onclick="openModal('hAzeEs8AnU0')">
+
+                        </div>
+                        <span>Vídeo 2</span>
+                    </div>
+                    <div class="column">
+                        <div class="play" onclick="openModal('hAzeEs8AnU0')">
+
+                        </div>
+                        <span>Vídeo 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="top">
+                <div class="video">
+                    <div class="column">
+                        <div class="play" onclick="openModal('hAzeEs8AnU0')">
+
+                        </div>
+                        <span>Vídeo 1</span>
+                    </div>
+                    <div class="column">
+                        <div class="play" onclick="openModal('hAzeEs8AnU0')">
+
+                        </div>
+                        <span>Vídeo 2</span>
+                    </div>
+                    <div class="column">
+                        <div class="play" onclick="openModal('hAzeEs8AnU0')">
+
+                        </div>
+                        <span>Vídeo 3</span>
+                    </div>
+                </div>
+                <div class="info" style="align-items: flex-end; text-align: end;">
+                    <h1>JAVASCRIPT</h1>
+                    <p>Entenda como funciona uma linguagem de programação.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="videoFrame" width="1440" height="700" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts-icones.css">
+    
+    <title>Homepage</title>
+</head>
+<body>
+    <nav>
+    </nav>
+    <section class="header">
+        <div class="limiter-content">
+            <div class="content">
+                <div class="column-text">
+                    <div class="text">
+                        <span class="type"><img src="/assets/devices.svg" alt="">ESTUDE COM O ELOS</span>
+                    </div>
+                    <div class="central-text">
+                        <h1>Vamos continuar aprendendo a programar?</h1>
+                    </div>
+                    <p>Aprenderemos HTML, CSS e JavaScript.
+                        <br>Conto com você para aprendermos juntos!
+                    </p>
+                    <div class="container-buttons">
+                        <button class="init">Começar agora</button>
+                        <button class="video" onclick="openModal('hAzeEs8AnU0')""><img src="/assets/video.svg" alt=""><p>Ver vídeo</p></button>
+                    </div>
+                </div>
+                <div class="column-img">
+                    <img src="/assets/robo.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="elos">
+        <div class="technologies">
+            <div class="info">
+                <p>ELoS é uma plataforma de ensino de programação para crianças e adolescentes. A plataforma foi desenvolvida para ser utilizada em sala de aula, mas também pode ser utilizada por qualquer pessoa que queira aprender a programar.</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Ainda não teve contato com programação?</h2>
+            <p>Vamos conhecer o ELoS!</p>
+            <div class="image">
+                <div class="controle">
+                    <div class="container">
+                        <div class="esquerda">
+                            <img src="/assets/botoesx.png" alt="">
+                        </div>
+                        <div class="tela">
+                           <h1><span class="wave">ELoS</span></h1>
+                        </div>
+                        <div class="direita">
+                            <img src="/assets/botoes2x.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="videoFrame" width="1440" height="700" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
